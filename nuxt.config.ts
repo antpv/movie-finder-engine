@@ -4,5 +4,18 @@ export default defineNuxtConfig({
     '@element-plus/nuxt',
     '@pinia/nuxt'
   ],
-  devtools: { enabled: true }
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false
+    }
+  ],
+  css: ['~/assets/css/main.css'],
+  devtools: { enabled: true },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    }
+  }
 })

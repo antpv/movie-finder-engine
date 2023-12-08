@@ -9,13 +9,13 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "overrides": {
-    "vue": "latest"
-  },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.7",
     "@nuxt/devtools": "latest",
+    "autoprefixer": "^10.4.16",
     "nuxt": "^3.8.2",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
   },
